@@ -1,0 +1,58 @@
+*{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: small;
+}
+.logo{
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.cadastro{
+    font-size: medium;
+    border-style:ridge;
+    border-width:1px;
+    padding: 10px 35px; 
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-color: #d3cbcb;
+}
+
+.imput{
+    width: 350px;
+    height: 30px;
+    outline: 0;
+}   
+
+.button{
+    margin-top: 3px;
+    background-image: linear-gradient(to top, orange, #f0c14b);
+    width: 360px;
+    height: 30px;
+    color: black;
+}
+
+footer{
+    border-top: solid #d3cbcb;
+    margin:0px;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+p{
+    color:dimgrey;
+}
+.poggers{
+    color: dimgrey;
+    text-align: center;
+}
+
+.zaza{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+    

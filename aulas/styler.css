@@ -1,0 +1,40 @@
+*{
+   margin:0;
+   padding:0; 
+}
+body{
+    display:grid;
+    grid-template-areas: "aside header"
+                        "aside sessao";
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr 2fr;
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    grid-area: header;
+}
+a{
+    border: 1px solid black;
+    background-color: red;
+    height: 4vh;
+    width:50px;
+}
+aside{
+    grid-area: aside;
+    border: 2px solid black;
+}
+section{
+    grid-area: sessao;
+    border: 2px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+div{
+    background-color: chartreuse;
+    width: 20vw;
+    height: 30vh;
+
+}

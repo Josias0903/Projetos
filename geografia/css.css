@@ -1,0 +1,118 @@
+*{    margin: 0;
+
+    padding: 0;
+
+}
+
+*{
+
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    padding: 1em;
+    border-radius: 10px;
+    width: 30em;
+    height: 15em;
+    box-shadow: 5px 8px 8px #000;
+}
+img{
+    width: 30em;
+    height:15em;
+}
+.box-img{
+    display: flex;
+    align-items: flex-start;
+}
+
+button {
+    color: white;
+    background: black;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+}
+
+button:hover,
+button:focus {
+    background: black;
+    transform: translateX(10px) scale(0.7);
+}
+#home {
+    color: purple;
+}
+#sobre {
+    color: purple;
+}
+#mapa {
+    color: purple;
+}
+#contato {
+    color: purple;
+}
+#ensino-geografia {
+    color: purple;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: white;
+    height: 12vh;
+    width: 100vw;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+#container2 {
+    background-color: rgb(191, 37, 191);
+    position: absolute;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    left: 0%;
+}
+
